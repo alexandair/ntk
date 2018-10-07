@@ -21,7 +21,7 @@ Install-Script Install-VSCode -Scope CurrentUser; Install-VSCode.ps1
 
 [Installation script on GitHub](https://github.com/PowerShell/vscode-powershell/blob/develop/scripts/Install-VSCode.ps1)
 
-[Installation script on the PowerShell Gallery](https://www.powershellgallery.com/packages/Install-VSCode/1.2/DisplayScript)
+[Installation script on the PowerShell Gallery](https://www.powershellgallery.com/packages/Install-VSCode/)
 
 Manually install [Visual Studio Code](https://code.visualstudio.com/)
 
