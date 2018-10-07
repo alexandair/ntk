@@ -1,6 +1,6 @@
 
 # TUTORIAL: Create virtual machines with the Azure PowerShell
-# https://docs.microsoft.com/en-us/powershell/azure/azureps-vm-tutorial?view=azurermps-6.0.0
+# https://docs.microsoft.com/en-us/powershell/azure/azureps-vm-tutorial
 
 #region Log in
 
