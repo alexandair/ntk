@@ -1,6 +1,6 @@
 # LAB 02: Azure Storage
 
-## Authenticate to Azure and select the subscription (if you have more than one)
+### Authenticate to Azure and select the subscription (if you have more than one)
 
 > [!TIP]
 > To retrieve the name of your subscription run the following command:
@@ -11,7 +11,7 @@ Get-AzureRmSubscription | Out-GridView
 $SubscriptionName = "<Subscription Name>"
 ```
 
-## Set up the variables
+### Set up the variables
 
 - Provide the name of your resource group: `$ResourceGroupName`
 
@@ -25,14 +25,14 @@ $SubscriptionName = "<Subscription Name>"
 
 - Provide the full path to a directory you wish to use for downloaded blobs: `$DestinationFolder`
 
-## Create a new storage account
+### Create a new storage account
 
-## Get a context of the storage account
+### Get a context of the storage account
 
 > [!TIP]
 > Context is the property of the storage account object
 
-## Create a new container
+### Create a new container
 
 > [!TIP]
 > The following command will give you a list of the needed cmdlets
@@ -41,12 +41,12 @@ $SubscriptionName = "<Subscription Name>"
 Get-Command -Module Azure.Storage -noun *container*, *blob* | sort noun | ft -GroupBy noun
 ```
 
-## Upload a blob to the container
+### Upload a blob to the container
 
-## List all blobs in the container
+### List all blobs in the container
 
-## Create a destination folder on your machine (if it doesn't exist)
+### Create a destination folder on your machine (if it doesn't exist)
 
-## Download the blob to the local destination folder
+### Download the blob to the local destination folder
 
-## Delete the container
+### Delete the container
