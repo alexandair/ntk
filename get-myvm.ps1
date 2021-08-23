@@ -1,2 +1,0 @@
-Get-AzVm
-# new comment
